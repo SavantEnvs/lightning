@@ -1,0 +1,5 @@
+project: savantenvs/lightning
+target: fuzz-wire-announcement_signatures
+cmds:
+  - cmd: /mayhem/fuzz-wire-announcement_signatures
+    libfuzzer: true

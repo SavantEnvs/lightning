@@ -1,0 +1,5 @@
+project: savantenvs/lightning
+target: fuzz-wire-tx_signatures
+cmds:
+  - cmd: /mayhem/fuzz-wire-tx_signatures
+    libfuzzer: true

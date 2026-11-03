@@ -1,0 +1,5 @@
+project: savantenvs/lightning
+target: fuzz-close_tx
+cmds:
+  - cmd: /mayhem/fuzz-close_tx
+    libfuzzer: true

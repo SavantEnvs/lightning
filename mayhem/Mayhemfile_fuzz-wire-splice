@@ -1,0 +1,5 @@
+project: savantenvs/lightning
+target: fuzz-wire-splice
+cmds:
+  - cmd: /mayhem/fuzz-wire-splice
+    libfuzzer: true

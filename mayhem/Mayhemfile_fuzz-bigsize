@@ -1,0 +1,5 @@
+project: savantenvs/lightning
+target: fuzz-bigsize
+cmds:
+  - cmd: /mayhem/fuzz-bigsize
+    libfuzzer: true

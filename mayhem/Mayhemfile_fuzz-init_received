@@ -1,0 +1,5 @@
+project: savantenvs/lightning
+target: fuzz-init_received
+cmds:
+  - cmd: /mayhem/fuzz-init_received
+    libfuzzer: true

@@ -1,0 +1,5 @@
+project: savantenvs/lightning
+target: fuzz-wire-reply_short_channel_ids_end
+cmds:
+  - cmd: /mayhem/fuzz-wire-reply_short_channel_ids_end
+    libfuzzer: true

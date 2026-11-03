@@ -1,0 +1,5 @@
+project: savantenvs/lightning
+target: fuzz-wire-update_blockheight
+cmds:
+  - cmd: /mayhem/fuzz-wire-update_blockheight
+    libfuzzer: true

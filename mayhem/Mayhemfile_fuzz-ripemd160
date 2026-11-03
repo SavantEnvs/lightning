@@ -1,0 +1,5 @@
+project: savantenvs/lightning
+target: fuzz-ripemd160
+cmds:
+  - cmd: /mayhem/fuzz-ripemd160
+    libfuzzer: true

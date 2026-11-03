@@ -1,0 +1,5 @@
+project: savantenvs/lightning
+target: fuzz-bolt12-bech32-decode
+cmds:
+  - cmd: /mayhem/fuzz-bolt12-bech32-decode
+    libfuzzer: true

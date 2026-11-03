@@ -1,0 +1,5 @@
+project: savantenvs/lightning
+target: fuzz-descriptor_checksum
+cmds:
+  - cmd: /mayhem/fuzz-descriptor_checksum
+    libfuzzer: true
