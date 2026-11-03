@@ -1,0 +1,5 @@
+project: savantenvs/lightning
+target: fuzz-wire-shutdown
+cmds:
+  - cmd: /mayhem/fuzz-wire-shutdown
+    libfuzzer: true

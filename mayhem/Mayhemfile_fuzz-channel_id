@@ -1,0 +1,5 @@
+project: savantenvs/lightning
+target: fuzz-channel_id
+cmds:
+  - cmd: /mayhem/fuzz-channel_id
+    libfuzzer: true

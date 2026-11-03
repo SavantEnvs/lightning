@@ -1,0 +1,5 @@
+project: savantenvs/lightning
+target: fuzz-wire-commitment_signed
+cmds:
+  - cmd: /mayhem/fuzz-wire-commitment_signed
+    libfuzzer: true

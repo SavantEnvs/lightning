@@ -1,0 +1,5 @@
+project: savantenvs/lightning
+target: fuzz-wire-accept_channel
+cmds:
+  - cmd: /mayhem/fuzz-wire-accept_channel
+    libfuzzer: true

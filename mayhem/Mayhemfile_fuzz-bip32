@@ -1,0 +1,5 @@
+project: savantenvs/lightning
+target: fuzz-bip32
+cmds:
+  - cmd: /mayhem/fuzz-bip32
+    libfuzzer: true

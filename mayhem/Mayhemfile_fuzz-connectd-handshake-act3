@@ -1,0 +1,5 @@
+project: savantenvs/lightning
+target: fuzz-connectd-handshake-act3
+cmds:
+  - cmd: /mayhem/fuzz-connectd-handshake-act3
+    libfuzzer: true

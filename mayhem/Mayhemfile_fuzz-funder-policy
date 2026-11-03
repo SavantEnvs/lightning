@@ -1,0 +1,5 @@
+project: savantenvs/lightning
+target: fuzz-funder-policy
+cmds:
+  - cmd: /mayhem/fuzz-funder-policy
+    libfuzzer: true

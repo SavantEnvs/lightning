@@ -1,0 +1,5 @@
+project: savantenvs/lightning
+target: fuzz-wire-gossip_timestamp_filter
+cmds:
+  - cmd: /mayhem/fuzz-wire-gossip_timestamp_filter
+    libfuzzer: true

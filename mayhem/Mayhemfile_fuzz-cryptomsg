@@ -1,0 +1,5 @@
+project: savantenvs/lightning
+target: fuzz-cryptomsg
+cmds:
+  - cmd: /mayhem/fuzz-cryptomsg
+    libfuzzer: true

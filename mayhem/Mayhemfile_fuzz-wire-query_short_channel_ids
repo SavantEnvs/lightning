@@ -1,0 +1,5 @@
+project: savantenvs/lightning
+target: fuzz-wire-query_short_channel_ids
+cmds:
+  - cmd: /mayhem/fuzz-wire-query_short_channel_ids
+    libfuzzer: true

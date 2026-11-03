@@ -1,0 +1,5 @@
+project: savantenvs/lightning
+target: fuzz-wireaddr
+cmds:
+  - cmd: /mayhem/fuzz-wireaddr
+    libfuzzer: true

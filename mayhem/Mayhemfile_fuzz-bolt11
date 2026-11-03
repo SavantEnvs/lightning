@@ -1,0 +1,5 @@
+project: savantenvs/lightning
+target: fuzz-bolt11
+cmds:
+  - cmd: /mayhem/fuzz-bolt11
+    libfuzzer: true

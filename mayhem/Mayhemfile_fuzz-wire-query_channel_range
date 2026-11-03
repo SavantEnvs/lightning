@@ -1,0 +1,5 @@
+project: savantenvs/lightning
+target: fuzz-wire-query_channel_range
+cmds:
+  - cmd: /mayhem/fuzz-wire-query_channel_range
+    libfuzzer: true

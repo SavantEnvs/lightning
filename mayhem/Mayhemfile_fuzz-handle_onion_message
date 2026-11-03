@@ -1,0 +1,5 @@
+project: savantenvs/lightning
+target: fuzz-handle_onion_message
+cmds:
+  - cmd: /mayhem/fuzz-handle_onion_message
+    libfuzzer: true

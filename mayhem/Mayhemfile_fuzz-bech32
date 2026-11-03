@@ -1,0 +1,5 @@
+project: savantenvs/lightning
+target: fuzz-bech32
+cmds:
+  - cmd: /mayhem/fuzz-bech32
+    libfuzzer: true

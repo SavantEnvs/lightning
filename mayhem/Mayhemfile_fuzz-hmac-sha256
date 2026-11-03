@@ -1,0 +1,5 @@
+project: savantenvs/lightning
+target: fuzz-hmac-sha256
+cmds:
+  - cmd: /mayhem/fuzz-hmac-sha256
+    libfuzzer: true

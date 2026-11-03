@@ -1,0 +1,5 @@
+project: savantenvs/lightning
+target: fuzz-wire-open_channel2
+cmds:
+  - cmd: /mayhem/fuzz-wire-open_channel2
+    libfuzzer: true

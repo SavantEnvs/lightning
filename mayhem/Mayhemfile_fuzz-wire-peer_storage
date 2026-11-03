@@ -1,0 +1,5 @@
+project: savantenvs/lightning
+target: fuzz-wire-peer_storage
+cmds:
+  - cmd: /mayhem/fuzz-wire-peer_storage
+    libfuzzer: true

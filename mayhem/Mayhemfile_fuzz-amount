@@ -1,0 +1,5 @@
+project: savantenvs/lightning
+target: fuzz-amount
+cmds:
+  - cmd: /mayhem/fuzz-amount
+    libfuzzer: true
