@@ -1,0 +1,5 @@
+project: savantenvs/lightning
+target: fuzz-wire-pong
+cmds:
+  - cmd: /mayhem/fuzz-wire-pong
+    libfuzzer: true

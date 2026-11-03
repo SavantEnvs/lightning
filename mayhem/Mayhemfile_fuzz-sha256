@@ -1,0 +1,5 @@
+project: savantenvs/lightning
+target: fuzz-sha256
+cmds:
+  - cmd: /mayhem/fuzz-sha256
+    libfuzzer: true

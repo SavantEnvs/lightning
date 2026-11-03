@@ -1,0 +1,5 @@
+project: savantenvs/lightning
+target: fuzz-wire-update_fail_malformed_htlc
+cmds:
+  - cmd: /mayhem/fuzz-wire-update_fail_malformed_htlc
+    libfuzzer: true

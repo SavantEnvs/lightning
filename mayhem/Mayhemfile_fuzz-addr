@@ -1,0 +1,5 @@
+project: savantenvs/lightning
+target: fuzz-addr
+cmds:
+  - cmd: /mayhem/fuzz-addr
+    libfuzzer: true

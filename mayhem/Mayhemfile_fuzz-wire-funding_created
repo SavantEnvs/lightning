@@ -1,0 +1,5 @@
+project: savantenvs/lightning
+target: fuzz-wire-funding_created
+cmds:
+  - cmd: /mayhem/fuzz-wire-funding_created
+    libfuzzer: true

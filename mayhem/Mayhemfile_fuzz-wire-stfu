@@ -1,0 +1,5 @@
+project: savantenvs/lightning
+target: fuzz-wire-stfu
+cmds:
+  - cmd: /mayhem/fuzz-wire-stfu
+    libfuzzer: true

@@ -1,0 +1,5 @@
+project: savantenvs/lightning
+target: fuzz-wire-warning
+cmds:
+  - cmd: /mayhem/fuzz-wire-warning
+    libfuzzer: true

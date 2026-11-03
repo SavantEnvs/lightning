@@ -1,0 +1,5 @@
+project: savantenvs/lightning
+target: fuzz-wire-update_fee
+cmds:
+  - cmd: /mayhem/fuzz-wire-update_fee
+    libfuzzer: true

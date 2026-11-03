@@ -1,0 +1,5 @@
+project: savantenvs/lightning
+target: fuzz-wire-tx_add_input
+cmds:
+  - cmd: /mayhem/fuzz-wire-tx_add_input
+    libfuzzer: true
